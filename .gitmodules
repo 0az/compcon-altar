@@ -1,0 +1,3 @@
+[submodule "vendor/authoring-extension"]
+	path = vendor/authoring-extension
+	url = git@github.com:massif-press/vscode-comp-con-content-authoring.git
