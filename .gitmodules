@@ -7,3 +7,6 @@
 [submodule "vendor/lancer-data"]
 	path = vendor/lancer-data
 	url = git@github.com:massif-press/lancer-data.git
+[submodule "vendor/long-rim-data"]
+	path = vendor/long-rim-data
+	url = git@github.com:massif-press/long-rim-data.git
