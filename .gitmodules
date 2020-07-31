@@ -4,3 +4,6 @@
 [submodule "vendor/compcon-extra"]
 	path = vendor/compcon-extra
 	url = git@github.com:massif-press/compcon-extra.git
+[submodule "vendor/lancer-data"]
+	path = vendor/lancer-data
+	url = git@github.com:massif-press/lancer-data.git
