@@ -1,12 +1,12 @@
 [submodule "vendor/authoring-extension"]
 	path = vendor/authoring-extension
-	url = git@github.com:massif-press/vscode-comp-con-content-authoring.git
+	url = https://github.com/massif-press/vscode-comp-con-content-authoring.git
 [submodule "vendor/compcon-extra"]
 	path = vendor/compcon-extra
-	url = git@github.com:massif-press/compcon-extra.git
+	url = https://github.com/massif-press/compcon-extra.git
 [submodule "vendor/lancer-data"]
 	path = vendor/lancer-data
-	url = git@github.com:massif-press/lancer-data.git
+	url = https://github.com/massif-press/lancer-data.git
 [submodule "vendor/long-rim-data"]
 	path = vendor/long-rim-data
-	url = git@github.com:massif-press/long-rim-data.git
+	url = https://github.com/massif-press/long-rim-data.git
