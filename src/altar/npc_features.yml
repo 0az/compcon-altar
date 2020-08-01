@@ -1,0 +1,21 @@
+---
+id: generic_rifle_medium
+name: Generic Rifle, Medium
+type: Weapon
+weapon_type: Main Rifle
+origin:
+  name: generic_tank
+  type: Class
+  base: true
+locked: false
+effect: ''
+on_hit: ''
+damage:
+  - type: Variable
+    damage: [3, 5, 7]
+attack_bonus: [0, 1, 2]
+range:
+  - type: Range
+    val: 15
+    override: false
+    bonus: 0

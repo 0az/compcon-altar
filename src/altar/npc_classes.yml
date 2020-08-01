@@ -1,0 +1,36 @@
+---
+id: generic_tank
+name: Generic Tank
+role: Artillery
+info:
+  flavor: >-
+    A generic tank, complete with treads. Even in the Sixth Millennium, nothing beats a Tank for relatively cheap armored support.
+
+    This applies only to infantry, of course. Against mechs, a conventional tank's armor may as well be paper-mâché.
+  tactics: >-
+    A tank is cheaper than any mech, including the Everest, and as such, does not have the same durability. Against Lancers, Tanks take on the role of "quantity" over "quality", firing en masse against agile targets, at range.
+base_features:
+  - generic_rifle_medium
+  - npcf_crew_vehicle
+  - npcf_no_manipulators_vehicle
+  - npcf_limited_melee_vehicle
+optional_features:
+power: 50
+stats:
+  activations: [1, 1, 1]
+  stress: [1, 1, 1]
+  structure: [1, 1, 1]
+  hp: [8, 10, 12]
+  armor: [0, 0, 0]
+  evade: [6, 8, 10]
+  edef: [6, 7, 8]
+  heatcap: [4, 4, 5]
+  hull: [-2, -1, 0]
+  agility: [-1, 0, 1]
+  systems: [-3, -3, -3]
+  engineering: [0, 1, 2]
+  speed: [5, 6, 6]
+  sensors: [6, 6, 6]
+  size: [1, 1, 1]
+# TODO: Create Generic IFV
+# TODO: Create Generic Truck
