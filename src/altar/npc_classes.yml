@@ -33,7 +33,7 @@ stats:
   speed: [5, 6, 6]
   stress: [1, 1, 1]
   structure: [1, 1, 1]
-  systems: [-3, -3, -3]
+  systems: [-2, -2, -2]
 ---
 id: generic_ifv
 name: Generic IFV
@@ -60,7 +60,7 @@ stats:
   engineering: [0, 1, 2]
   evade: [6, 8, 10]
   heatcap: [4, 4, 5]
-  hp: [4, 6, 8]
+  hp: [5, 7, 9]
   hull: [-3, -2, -1]
   save: [8, 10, 12]
   sensor: [5, 5, 5]
@@ -68,7 +68,7 @@ stats:
   speed: [6, 7, 7]
   stress: [1, 1, 1]
   structure: [1, 1, 1]
-  systems: [-4, -4, -4]
+  systems: [-2, -2, -2]
 ---
 id: generic_truck
 name: Generic Truck
@@ -89,20 +89,20 @@ optional_features: []
 power: 5
 stats:
   activations: [1, 1, 1]
-  agility: [-1, 0, 1]
+  agility: [-2, -1, 0]
   armor: [0, 0, 0]
   edef: [6, 7, 8]
-  engineering: [0, 1, 2]
-  evade: [6, 8, 10]
-  heatcap: [4, 4, 5]
-  hp: [4, 6, 8]
-  hull: [-3, -2, -1]
-  save: [8, 10, 12]
-  sensor: [5, 5, 5]
+  engineering: [-2, -2, -1]
+  evade: [5, 6, 7]
+  heatcap: [3, 3, 4]
+  hp: [3, 4, 5]
+  hull: [-4, -3, -2]
+  save: [6, 7, 8]
+  sensor: [3, 3, 3]
   size: [[1, 2], [1, 2], [1, 2]]
   speed: [6, 7, 7]
   stress: [1, 1, 1]
   structure: [1, 1, 1]
-  systems: [-4, -4, -4]
+  systems: [-3, -3, -3]
 # TODO: Create Generic IFV
 # TODO: Create Generic Truck
