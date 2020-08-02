@@ -19,3 +19,78 @@ range:
     val: 15
     override: false
     bonus: 0
+---
+id: generic_autocannon_medium
+name: Generic Autocannon, Medium
+# Bofors 40mm equivalent
+type: Weapon
+weapon_type: Main Rifle
+origin:
+  name: Generic IFV
+  type: Class
+  base: true
+locked: false
+effect: ''
+on_hit: ''
+damage:
+  - type: Variable
+    damage: [1, 1, 2]
+attack_bonus: [-1, 0, 1]
+range:
+  - type: Range
+    val: 6
+    # Relatively low *effective* range, at least against mech targets.
+    # Intended use is self-defense.
+    override: false
+    bonus: 0
+---
+id: generic_smoke_launcher_system
+name: Generic Smoke Launcher System
+type: System
+origin:
+  name: Generic Vehicle
+  type: Template
+  base: false
+locked: false
+effect: >-
+  The vehicle launches a smoke charge, creating a Blast 3 area of concealing smart-smoke centered at any point within Range 10. All characters gain soft cover within the affected area. This effect lasts until the end of the unit's third turn after launch.
+tags:
+  - id: tg_limited
+    val: 3
+  - id: tg_quick_action
+---
+id: generic_no_tech_attacks
+name: No Tech Attacks
+type: Trait
+origin:
+  name: Generic Vehicle
+  type: Template
+  base: false
+locked: false
+effect: >-
+  This unit cannot make tech attacks.
+tags: []
+---
+id: generic_small_scale_weapons
+name: Small Scale Weapons
+type: Trait
+origin:
+  name: Generic Vehicle
+  type: Template
+  base: true
+locked: false
+effect: >-
+  This vehicle's weapons are only effective effective to mechs at dangerously close ranges. When fighting non-mechs, double all weapon damage and range.
+tags: []
+---
+id: generic_limited_agility
+name: Limited Agility
+type: Trait
+origin:
+  name: Generic Vehicle
+  type: Template
+  base: true
+locked: false
+effect: >-
+  While this vehicle can match a mech on even ground, it doesn't have quite have the maneuverability to hurdle over logs and dash between trees, or climb up a one-meter ledge.
+tags: []
