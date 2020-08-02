@@ -1,7 +1,7 @@
 ---
 id: generic_tank
 name: Generic Tank
-role: Artillery
+role: artillery
 info:
   flavor: >-
     A generic tank, complete with treads. Even in the Sixth Millennium, nothing beats a Tank for relatively cheap armored support.
@@ -12,25 +12,25 @@ info:
 base_features:
   - generic_rifle_medium
   - npcf_crew_vehicle
-  - npcf_no_manipulators_vehicle
   - npcf_limited_melee_vehicle
-optional_features:
+  - npcf_no_manipulators_vehicle
+  - generic_no_tech_attacks
+optional_features: []
 power: 50
 stats:
   activations: [1, 1, 1]
+  agility: [-1, 0, 1]
+  armor: [0, 0, 0]
+  edef: [6, 7, 8]
+  engineering: [0, 1, 2]
+  evade: [6, 8, 10]
+  heatcap: [4, 4, 5]
+  hp: [8, 10, 12]
+  hull: [-2, -1, 0]
+  save: [8, 10, 12]
+  sensor: [6, 6, 6]
+  size: [[1, 2], [1, 2], [1, 2]]
+  speed: [5, 6, 6]
   stress: [1, 1, 1]
   structure: [1, 1, 1]
-  hp: [8, 10, 12]
-  armor: [0, 0, 0]
-  evade: [6, 8, 10]
-  edef: [6, 7, 8]
-  heatcap: [4, 4, 5]
-  hull: [-2, -1, 0]
-  agility: [-1, 0, 1]
   systems: [-3, -3, -3]
-  engineering: [0, 1, 2]
-  speed: [5, 6, 6]
-  sensors: [6, 6, 6]
-  size: [1, 1, 1]
-# TODO: Create Generic IFV
-# TODO: Create Generic Truck

@@ -4,7 +4,7 @@ name: Generic Rifle, Medium
 type: Weapon
 weapon_type: Main Rifle
 origin:
-  name: generic_tank
+  name: Generic Tank
   type: Class
   base: true
 locked: false
